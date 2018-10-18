@@ -3,47 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="69fd3a32-f26c-4911-a214-69d069922db4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/.gitlab-ci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/adminer/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/env-for-osx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/env-for-windows" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/grafana/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/maildev/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/mongo-webui/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/mongo/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/mysql/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/mysql/docker-entrypoint-initdb.d/createdb.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/mysql/my.cnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/neo4j/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/compose/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/nginx/sites/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/nginx/sites/app.conf.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/compose/nginx/sites/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/compose/nginx/sites/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/aerospike.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/laravel.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/mysql.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/opcache.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/php5.6.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/php7.0.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/php7.1.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/php7.2.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/xdebug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/xdebug.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-fpm/xlaravel.pool.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-worker/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-worker/supervisord.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/php-worker/supervisord.d/laravel-worker.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/rabbitmq/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/redis/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/aliases.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/crontab/laradock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/insecure_id_rsa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/insecure_id_rsa.ppk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/insecure_id_rsa.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/mc/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/workspace/xdebug.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/nginx/sites/laravel.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/nginx/sites/symfony.conf.example" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/compose/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="22" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+              <caret line="7" column="25" selection-start-line="7" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -72,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compose/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -84,8 +48,8 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compose/nginx/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -93,22 +57,31 @@
       <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compose/nginx/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/compose/nginx/sites/default.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="490">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NETWORKS_DRIVER</find>
+      <find>DATA_PATH_HOST</find>
+      <find>NGINX_SITES_PATH</find>
+      <find>APP_CODE_PATH_CONTAINER</find>
+      <find>APP_CODE_PATH_HOST</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,6 +128,19 @@
               <item name="docker-secomp" type="462c0819:PsiDirectoryNode" />
               <item name="compose" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="docker-secomp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-secomp" type="462c0819:PsiDirectoryNode" />
+              <item name="compose" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-secomp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-secomp" type="462c0819:PsiDirectoryNode" />
+              <item name="compose" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -195,35 +181,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539896025802</updated>
-      <workItem from="1539896027056" duration="3015000" />
+      <workItem from="1539896027056" duration="3428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3015000" />
+    <option name="totallyTimeSpent" value="3428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32900432" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32900432" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12153518" />
+      <window_info anchor="bottom" id="Docker" order="0" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32900432" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +230,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/compose/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -250,38 +244,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compose/nginx/sites/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compose/nginx/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compose/nginx/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compose/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compose/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compose/nginx/sites/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
     </entry>
